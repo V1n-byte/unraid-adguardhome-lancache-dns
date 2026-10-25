@@ -1,32 +1,21 @@
-# Community Apps Starter Template
+AdGuardHome LanCache DNS Synchronizer — Unraid Template
 
-Use this repository as a GitHub template when you want a clean starting point for a new Community Apps submission repository.
+This repository provides an Unraid Community Applications template for installing and configuring AdGuardHome LanCache DNS Synchronizer.
 
-## Quick Start
+Original project and credits
 
-1. Click **Use this template** on GitHub and create your own repository.
-2. Replace the placeholder values in `ca_profile.xml`, `templates/example-app.xml`, and `plugins/example-plugin.xml`.
-3. Replace `icon.svg` with your own repository icon, or update `ca_profile.xml` to point at a hosted icon you control.
-4. Keep one XML file per Docker app under `templates/`.
-5. Keep one XML wrapper per plugin under `plugins/`.
-6. Delete the example files you do not need.
-7. Commit and push your repository.
-8. Run **Validate** and **Scan** in the Community Apps submit flow: `/submit`.
+Original author and application maintainer: sq4ind
 
-## Starter Files
+Upstream source code: sq4ind/adguardhome-lancache-dns
 
-- `README.md`: onboarding notes for whoever maintains the repository.
-- `LICENSE`: starter MIT license text. Replace the placeholder copyright line.
-- `.gitignore`: keeps common OS junk out of the repo.
-- `icon.svg`: starter repository icon referenced by `ca_profile.xml`.
-- `ca_profile.xml`: repository overview and support metadata shown in Community Apps.
-- `templates/example-app.xml`: starter Docker application template.
-- `plugins/example-plugin.xml`: starter plugin wrapper.
+Docker image: sq4ind/adguardhome-lancache-dns on Docker Hub
 
-## Submission Notes
+License: MIT — see the original project's license.
 
-- Keep `ca_profile.xml` in the repository root.
-- Every Docker app entry needs a `<Repository>` tag.
-- Every plugin entry needs a `<PluginURL>` tag.
-- Keep each template's `TemplateURL` pointed at the raw GitHub URL for that exact XML file.
-- Use an OSI-approved license before submitting.
+All credit for the original application code and its functionality belongs to its upstream author and contributors.
+
+This repository is an independent, community-maintained Unraid template. It is intended to simplify installation and configuration through Unraid Community Applications. It does not claim ownership of, or official affiliation with, the upstream application.
+
+For application bugs, source-code questions, or feature requests, please visit the upstream project's issue tracker.
+
+For issues specific to this Unraid template, please use this repository's issue tracker.
