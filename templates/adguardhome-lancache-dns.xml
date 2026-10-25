@@ -13,7 +13,7 @@
     <Category>Network:DNS Tools:Utilities</Category>
     <WebUI/>
     <TemplateURL>https://raw.githubusercontent.com/V1n-byte/unraid-adguardhome-lancache-dns/main/templates/adguardhome-lancache-dns.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/make/AdGuardHome.png</Icon>
+    <Icon>https://raw.githubusercontent.com/V1n-byte/unraid-adguardhome-lancache-dns/main/Icon2.png</Icon>
     <ExtraParams>--restart=unless-stopped</ExtraParams>
     <PostArgs/>
     <CPUset/>
