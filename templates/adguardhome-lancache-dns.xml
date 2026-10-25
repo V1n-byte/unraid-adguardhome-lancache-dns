@@ -12,7 +12,7 @@
     <Overview>Unraid Community Apps template for AdGuardHome LanCache DNS Synchronizer by sq4ind. This repository provides the Unraid installation template only; the application code and Docker image are maintained by the upstream author.</Overview>
     <Category>Network:DNS Tools:Utilities</Category>
     <WebUI/>
-    <TemplateURL>https://raw.githubusercontent.com/sq4ind/adguardhome-lancache-dns/main/adguardhome-lancache-dns.xml</TemplateURL>
+    <TemplateURL>https://raw.githubusercontent.com/V1n-byte/unraid-adguardhome-lancache-dns/main/templates/adguardhome-lancache-dns.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/make/AdGuardHome.png</Icon>
     <ExtraParams>--restart=unless-stopped</ExtraParams>
     <PostArgs/>
